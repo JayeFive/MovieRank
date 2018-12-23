@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRank", "MovieRank\MovieRank.csproj", "{130D8364-3571-4CD3-997C-7FFDA16E44B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRank.Libs", "MovieRank.Libs\MovieRank.Libs.csproj", "{0445C15C-58CA-4951-8E0C-287F3B3A3717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRank.Contracts", "MovieRank.Contracts\MovieRank.Contracts.csproj", "{C9FCE03C-7D4F-40AE-B094-148E34FB7D89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{130D8364-3571-4CD3-997C-7FFDA16E44B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{130D8364-3571-4CD3-997C-7FFDA16E44B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{130D8364-3571-4CD3-997C-7FFDA16E44B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0445C15C-58CA-4951-8E0C-287F3B3A3717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0445C15C-58CA-4951-8E0C-287F3B3A3717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0445C15C-58CA-4951-8E0C-287F3B3A3717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0445C15C-58CA-4951-8E0C-287F3B3A3717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9FCE03C-7D4F-40AE-B094-148E34FB7D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FCE03C-7D4F-40AE-B094-148E34FB7D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FCE03C-7D4F-40AE-B094-148E34FB7D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FCE03C-7D4F-40AE-B094-148E34FB7D89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
